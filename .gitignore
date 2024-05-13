@@ -1,0 +1,46 @@
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+# Ignore bootstrap cache directory
+bootstrap/cache/
+.env
+.env.backup
+.env.production
+package-lock.json
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+.vercel
+/public/media
+/storage/installed
+
+# Ignore everything in app-modules
+app-modules/*
+
+# But do not ignore the installer folder
+!app-modules/installer/
+
+storage/media-library
+
+/storage/logs/*
+
+# Ignore everything in lang
+lang/*
+
+# But do not ignore the en, vendor folder
+!lang/en/
+!lang/vendor/
+.gitmodules
+
+database/seeders/OtherDataSeeder.php
+database/seeders/settings
